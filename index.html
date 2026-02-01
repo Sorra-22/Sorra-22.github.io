@@ -41,9 +41,12 @@
   <section id="about" class="pt-28 pb-20 px-6">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
       <div class="w-40 h-40 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 p-1">
-        <div class="w-full h-full rounded-full bg-slate-800 flex items-center justify-center text-4xl font-bold gradient-text">
-          SK
-        </div>
+        <!-- Replace 'profile.jpg' with your actual image filename -->
+        <img 
+          src="profile.jpg" 
+          alt="Sarvesh Kurup"
+          class="w-full h-full rounded-full object-cover"
+        />
       </div>
       <div class="text-center md:text-left">
         <h1 class="text-4xl md:text-5xl font-bold mb-2">
@@ -56,6 +59,28 @@
           for omics analysis. Strong track record of translating complex genomics data into biologically actionable insights through 
           reproducible computational workflows.
         </p>
+        <!-- Resume Download Button -->
+        <div class="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
+          <a 
+            href="Sarvesh Sunil Kurup_Biogen.pdf" 
+            download="Sarvesh_Kurup_Resume.pdf"
+            class="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-medium px-6 py-3 rounded-lg transition-all transform hover:scale-105"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            Download Resume
+          </a>
+          <a 
+            href="#contact"
+            class="inline-flex items-center gap-2 border border-purple-500 text-purple-400 hover:bg-purple-500/10 font-medium px-6 py-3 rounded-lg transition-all"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+            Contact Me
+          </a>
+        </div>
       </div>
     </div>
   </section>
